@@ -14,9 +14,9 @@ module Data.Foreign.Lens
 
 import Prelude
 import Control.Monad.Except (runExcept)
-import Data.Foreign (Foreign, readArray, readInt, readNumber, readBoolean, readChar, readString)
-import Data.Foreign.Index (index, readProp) as F
-import Data.Foreign.Keys (keys) as F
+import Foreign (Foreign, readArray, readInt, readNumber, readBoolean, readChar, readString)
+import Foreign.Index (index, readProp) as F
+import Foreign.Keys (keys) as F
 import Data.Lens (Fold', traversed, to)
 import Data.Monoid (class Monoid)
 
